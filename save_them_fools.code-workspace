@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"editor.formatOnSave": true,
+	"settings": {
+		"cSpell.words": [
+			"colour",
+			"despawn",
+			"Despawned",
+			"Destructable",
+			"Gltf",
+			"Interactable",
+			"interactables",
+			"lightmapped",
+			"restartables",
+			"Shmoop",
+			"shmoops",
+			"shmoopses",
+			"srgb",
+			"srgba"
+		]
+	}
+}

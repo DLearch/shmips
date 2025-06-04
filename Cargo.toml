@@ -1,0 +1,23 @@
+[package]
+name = "save_them_fools"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.16", features = ["bevy_dev_tools"] }
+rand = "0.9.1"
+getrandom = { version = "0.3.3", default-features = false, features = [
+    "wasm_js",
+] }
+avian3d = "0.3.0"
+bevy_mod_outline = "0.10.0"
+
+[target.wasm32-unknown-unknown]
+runner = "wasm-server-runner"
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
+incremental = false
+debug = false

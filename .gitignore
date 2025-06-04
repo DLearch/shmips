@@ -1,0 +1,4 @@
+/target
+/dist
+/out/shmoop_manager.js
+/out/shmoop_manager_bg.wasm
