@@ -4015,7 +4015,9 @@ dependencies = [
  "bevy",
  "bevy_mod_outline",
  "getrandom 0.3.3",
+ "log",
  "rand 0.9.1",
+ "tracing",
 ]
 
 [[package]]

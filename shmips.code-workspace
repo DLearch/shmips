@@ -4,7 +4,6 @@
 			"path": "."
 		}
 	],
-	"editor.formatOnSave": true,
 	"settings": {
 		"cSpell.words": [
 			"colour",
